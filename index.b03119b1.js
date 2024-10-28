@@ -1,0 +1,2 @@
+document.querySelectorAll("input").forEach(function(e){var t=document.createElement("label");t.classList.add("field-label"),e.id&&t.setAttribute("for",e.id);var r=e.name.replace(/([A-Z])/g," $1").replace(/^./,function(e){return e.toUpperCase()}),a=e.name.replace(/([A-Z])/g," $1").toLowerCase().replace(/^(\w)/,function(e){return e.toUpperCase()});t.textContent=r,e.setAttribute("placeholder",a),e.parentNode.insertBefore(t,e)});
+//# sourceMappingURL=index.b03119b1.js.map
